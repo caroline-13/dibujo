@@ -1,4 +1,15 @@
 body{
     background-color: azure;
     text-align: center;
+    animation-name: cambiarFondo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes cambiarFondo {
+    0%{background-color: azure;}
+    50%{background-color: rgb(247, 160, 211);}
+    100%{background-color: azure;}
+}
+canvas{
+    box-shadow:-5px -5px 50px 5px rgba(248, 19, 198, 0.658) ;
 }
