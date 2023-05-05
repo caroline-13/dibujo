@@ -42,5 +42,6 @@ function resultado(error, respuesta) {
 function hablar(mensaje){
     var voz = window.speechSynthesis;
     var lectura = new SpeechSynthesisUtterance(mensaje);
+    lectura.lang="es-MX";
     voz.speak(lectura);
 }
